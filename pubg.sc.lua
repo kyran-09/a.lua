@@ -1,3 +1,52 @@
+
+-----dec leğen kardeş tgden ulas ödülün var ----
+function HOME()
+MN = gg.choice({
+"🛡️Bypass-L🛡\n╚[𝙻𝚘𝚐𝚘]️",
+"🛡️Bypass-1🛡️\n╚[ʟᴏʙɪ]",
+"🛡Bypass️-2🛡\n╚[ʟᴏʙɪ]️",
+"🏃Kalk Git🏃‍♀️"
+}, nil, "👹 Monster New Cheat 👹")
+if MN == nil then
+end-- Ghost
+if MN == 1 then
+LOGO()
+end-- Ghost
+if MN == 2 then
+LOBY1()
+end-- Ghost
+if MN == 3 then
+LOBY2()
+end-- Ghost
+
+if MN == 4 then
+CLOSE()
+end-- Ghost
+PUBGMH = -1
+end--------------------------------------------------------------------------------------------------
+
+function LOGO()
+function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x3624D4,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x3624D0,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x3624CC,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x3624C8,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x3624C4,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x3624E8,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x3624E4,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x3624E0,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x3624DC,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x3624D8,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x3624FC,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x3624F8,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x3624F4,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x3624F0,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x3624EC,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x362504,4,0)
+setvalue(gg.getRangesList('libanogs.so')[1].start+0x362500,4,0)
+gg.alert("Logo Aktif")
+end 
+function LOBY1()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
 gg.searchNumber("67,109,633", gg.TYPE_DWORD)
@@ -63,4 +112,269 @@ gg.searchNumber(";Eliminations", gg.TYPE_WORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll(";V39", gg.TYPE_WORD)
 gg.clearResults()
-gg.alert("🇲🇨𝘾𝙔𝘽𝙀𝙍 𝙉𝙄𝙃 𝘽𝙊𝙎𝙎🇲🇨")
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("620137442967552;564058054983680", gg.TYPE_QWORD)
+gg.refineNumber("620137442967552", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("578351706144768;564058054983680", gg.TYPE_QWORD)
+gg.refineNumber("578351706144768", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("577252194516992;288233678981562368", gg.TYPE_QWORD)
+gg.refineNumber("577252194516992", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("135682;144387", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("144387", gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll("84149249", gg.TYPE_DWORD)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131330;134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("134658", gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll("84149249", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function LOBY2()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("620,137,442,967,552;303,473,799,200,768", gg.TYPE_QWORD)
+gg.refineNumber("620,137,442,967,552", gg.TYPE_QWORD)
+gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("288,232,579,469,934,592", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("635,530,605,756,416;564,058,054,983,680", gg.TYPE_QWORD)
+gg.refineNumber("635,530,605,756,416", gg.TYPE_QWORD)
+gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("288,232,579,469,934,592", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber("573,953,659,633,664;303,473,799,200,768", gg.TYPE_QWORD)
+gg.refineNumber("573,953,659,633,664", gg.TYPE_QWORD)
+gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("288,232,579,469,934,592", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67,109,633;16,384", gg.TYPE_DWORD)
+gg.refineNumber("67,109,633", gg.TYPE_DWORD)
+gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("256", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("34,278,144;28,715", gg.TYPE_DWORD)
+gg.refineNumber("34,278,144", gg.TYPE_DWORD)
+gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("256", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("33,889,800", gg.TYPE_DWORD)
+gg.refineNumber("33,889,800", gg.TYPE_DWORD)
+gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("256", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("34,345,084", gg.TYPE_DWORD)
+gg.refineNumber("34,345,084", gg.TYPE_DWORD)
+gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("256", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("33,973,291", gg.TYPE_DWORD)
+gg.refineNumber("33,973,291", gg.TYPE_DWORD)
+gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("256", gg.TYPE_DWORD)
+gg.clearResults()
+gg.clearResults()
+os.remove("data/data/com.pubg.imobile/cache/volley")
+os.remove("data/data/com.pubg.imobile/shared_prefs/WebViewChromiumPrefs.xml")
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber("620,137,442,967,552", gg.TYPE_QWORD, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.refineNumber("620,137,442,967,552", gg.TYPE_QWORD)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(500)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("297,913,042,955,706,189", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber("620,137,442,967,552", gg.TYPE_QWORD, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.refineNumber("620,137,442,967,552", gg.TYPE_QWORD)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(500)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("297,913,042,955,706,189", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber("564,058,054,983,680;578,351,706,144,768", gg.TYPE_QWORD, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.refineNumber("564,058,054,983,680", gg.TYPE_QWORD)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(50000)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("288,230,376,151,711,745", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber("1.84032527e-40;1.84040935e-40", gg.TYPE_FLOAT, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.refineNumber("1.84032527e-40", gg.TYPE_FLOAT)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(62877)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("1.84049343e-40", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber("1.8403533e-40;1.84038133e-40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.refineNumber("1.8403533e-40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(99999)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("2.75868023e-40", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber("1.8439126e-40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.refineNumber("1.8439126e-40", gg.TYPE_FLOAT)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(50000)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("1.84049343e-40", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber("133,890;132,098", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.refineNumber("133,890", gg.TYPE_DWORD)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(50000)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("133,634", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber("131,842;133,634", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.refineNumber("131,842", gg.TYPE_DWORD)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(50000)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("196,866", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setVisible(false)
+gg.searchNumber(":l_report", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(85555, nil, nil, nil, nil, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("0", gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setVisible(false)
+gg.searchNumber(":get_report", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(85555, nil, nil, nil, nil, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("0", gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setVisible(false)
+gg.searchNumber(":tss_sdk_rcv_anti_data", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(85555, nil, nil, nil, nil, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("0", gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.searchNumber(":AreaData.dat", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(85555, nil, nil, nil, nil, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("0", gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setVisible(false)
+gg.searchNumber(":AntiCheatData", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(85555, nil, nil, nil, nil, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("0", gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setVisible(false)
+gg.searchNumber(":Reports", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(85555, nil, nil, nil, nil, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("0", gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setVisible(false)
+gg.searchNumber(":l_report", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(85555, nil, nil, nil, nil, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("0", gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setVisible(false)
+gg.searchNumber(":get_report", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(85555, nil, nil, nil, nil, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("0", gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setVisible(false)
+gg.searchNumber(":tss_sdk_rcv_anti_data", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(85555, nil, nil, nil, nil, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("0", gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.searchNumber(":AreaData.dat", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(85555, nil, nil, nil, nil, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("0", gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setVisible(false)
+gg.searchNumber(":AntiCheatData", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(85555, nil, nil, nil, nil, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("0", gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setVisible(false)
+gg.searchNumber(":Reports", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(85555, nil, nil, nil, nil, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("0", gg.TYPE_BYTE)
+gg.clearResults()
+gg.setVisible(false)
+gg.searchNumber(";Remaining", gg.TYPE_WORD, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(5000)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.searchNumber(";Finished", gg.TYPE_WORD, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(5000)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.searchNumber("620137442967552;564058054983680", gg.TYPE_QWORD, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.searchNumber("620137442967552", gg.TYPE_QWORD, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(50000)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("361418272522109953", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setVisible(false)
+gg.searchNumber("578351706144768;564058054983680", gg.TYPE_QWORD, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.searchNumber("578351706144768", gg.TYPE_QWORD, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(50000)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("361418272522109953", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setVisible(false)
+gg.searchNumber("1701147238", gg.TYPE_DWORD, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(50000)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setVisible(false)
+gg.searchNumber("4,096;135,682", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.searchNumber("4,096", gg.TYPE_DWORD, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(50000)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setVisible(false)
+gg.searchNumber("134,658;134,658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.searchNumber("134,658", gg.TYPE_DWORD, nil, nil, nil, nil)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.getResults(50000)---[[A‌n‌n‌i‌h‌i‌l‌l‌u‌s]]
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setVisible(false)
+gg.clearResults()
+end
+
+function CLOSE()
+gg.alert("Madem gidion kanala gel la \n@monsterhack31\ngelmeyeni sksinler\n✋🖐️")
+os.exit()
+end-- Ghost
+ 
+while true do
+  Time = os.date("")
+  if gg.isVisible(true) then
+    gg.setVisible(false)
+    HOME()
+  end-- Ghost
+  if MRGAMING == 1 then
+    HOME()
+  end-- Ghost
+end-- Ghost
